@@ -1,0 +1,562 @@
+html{
+	height: 100%;
+	/*width: 100%;*/
+}
+
+body
+{
+    height: 100%;
+    /*width: 100%;*/
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 0px 1px #000; 
+}
+
+h1{
+	/*font-family: 'Lato', sans-serif; */
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	/*font-size: 4.6875em;*/
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+h2, h3, h4{
+	font-weight: 200;
+	line-height: 1.3;
+	margin-bottom: 30px;
+}
+
+p{
+	font-size: 16px;
+	text-shadow: none; 
+	margin-bottom: 30px;
+}
+
+/*----------------------------
+	ALL
+-----------------------------*/
+
+.header{
+	margin-top: 50px;
+	line-height: 1.7em;
+	margin-bottom: 0px;
+}
+
+.border{
+	height: 2px;
+	max-width: 350px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin: 0 auto 30px;
+}
+
+/*----------------------------
+	PAGE WRAP
+-----------------------------*/
+.pagewrap{
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.pagewrap:after {
+  content: "";
+  display: block;
+}
+.footer, .pagewrap:after {
+  /* .push must be the same height as footer */
+  height: 50px; 
+}
+
+.content{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	/*background-color: red;*/
+}
+
+/*----------------------------
+	HOMEPAGE
+-----------------------------*/
+
+.home{
+	font-size: 7em;
+}
+
+/*----------------------------
+	NAVBAR
+-----------------------------*/
+.navbar{
+	border-radius: 0;
+}
+
+.navbar-default{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px 30px;
+}
+
+.navbar-nav{
+	float: none !important;
+	max-width: 430px;
+	margin: 0 auto;
+}
+
+.navbar-default .navbar-nav li{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 20px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #fff;	
+}
+
+.navbar-default .navbar-nav li a:hover{
+	text-shadow: none;
+	color: #3f3f3f;
+}
+
+.navbar-toggle{
+	margin-left: 10px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 0;
+	/*display: block;*/
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+
+.sticky {  
+    position: fixed;  
+    background-color: black;
+    color: white;
+    /*padding: 10px 30px;*/
+    /*width: 100%;  */
+    /*left: 0;  */
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+    opacity: 0.9;  
+}  
+
+.brand{
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 5px;
+	float: left;
+	visibility: hidden;
+}
+
+.brand:hover{
+	text-decoration: none;
+	color: #3f3f3f;
+	
+}
+
+.sticky-brand{
+	visibility: visible;
+}
+
+
+/*----------------------------
+	SCROLL BUTTON
+-----------------------------*/
+.scrollBtn{
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	margin-left: -25px;
+}
+
+.midBtn{
+	/*position: relative;
+	left: 50%;*/
+	bottom: 5%;
+}
+
+.page_scroll{
+	height: 50px;
+	width: 50px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.page_scroll a{
+	text-decoration: none;
+}
+
+.page_scroll .glyphicon{
+	display: block;
+	list-style-type: none;
+	color: #fff;
+	font-size: 20px;
+	top: 3px;
+	left: 5px;
+}
+
+.page_scroll:hover{
+	border: 4px solid #000;
+	background-color: #000;
+	opacity: 0.9;
+}
+
+.midScroll{
+	border: 4px solid #e3e3e3;
+}
+
+.midScroll .glyphicon{
+	color: #e3e3e3;
+}
+
+.midScroll:hover{
+	background-color: #000;
+	.glyphicon{
+		color: #fff;
+	}
+}
+
+/*----------------------------
+	INFO
+-----------------------------*/
+.work_info{
+	text-align: justify;
+	text-shadow: none; 
+}
+
+.work_info h3{
+	font-size: 1.5em;
+}
+
+.work{
+	font-size: 1.4em;
+	text-shadow: none;
+}
+
+#me{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 5px solid #e7e7e7;
+}
+
+/*----------------------------
+	PORTFOLIO TABS
+-----------------------------*/
+	.nav-tabs li a{
+		border-radius: 0;
+	}
+
+	ul.bstrap-tabs {
+		border:0;
+		display:inline-block;
+		margin: 0px auto 20px;
+	}
+
+	ul.bstrap-tabs li a {
+		font-size:14px;
+		text-align:center;
+		margin:0 3px;
+		color:#666;
+		border-bottom:#999 1px solid;
+		border-top:0 !important;
+		border-left:0 !important;
+		border-right:0 !important;
+		text-shadow: none;
+	}
+
+	ul.bstrap-tabs>li>a, 
+	ul.bstrap-tabs>li>a:hover, 
+	ul.bstrap-tabs>li>a:focus, 
+	ul.bstrap-tabs>li.active>a, 
+	ul.bstrap-tabs>li.active>a:hover, 
+	ul.bstrap-tabs>li.active>a:focus {
+		border-bottom:#999 1px solid;
+	}
+
+/*----------------------------
+	PORTFOLIO
+-----------------------------*/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+	
+ /** 12. Portfolio
+ **************************************************************** **/
+
+ .faded {/* portfolio, blog - on item hover */
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+	section.alternate div.faded {/* portfolio, blog - on item hover */
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+	}
+
+.sort-destination .isotope{
+	min-height: 500px;
+	height: 100%;
+}
+
+#portfolio .isotope-item {
+	-webkit-transition: all 300ms !important;
+	   -moz-transition: all 300ms !important;
+		 -o-transition: all 300ms !important;
+			transition: all 300ms !important;
+}
+
+.portfolioList ul{
+	list-style: none;
+	display: block;
+}
+
+.portfolioList li{
+	float: left;
+}
+
+.portfolioListItem{
+	position: relative;
+}
+
+.portfolioList .caption{
+	position:absolute;
+	top: 25%;
+	left: 50%;
+	margin-left: -50%;
+	padding: 50px 20px;
+	z-index: 100;
+	height: 220px;
+	width: 300px;
+	background-color: #000;
+	opacity: 0;
+	color: #fff;
+	overflow: hidden;
+}
+
+.portfolioList .caption:hover{
+	opacity: 0.8;
+}
+
+.portfolioListItem a{
+	color: #000; 
+	text-shadow: none;
+}
+
+.portfolioList .caption h4{
+	font-size:14px;
+	text-transform:uppercase;
+	color: white;
+	text-shadow: none;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.portfolioList .caption p {
+	font-size:12px;
+	padding-left:5px;
+	padding-right:5px;
+	text-transform:uppercase;
+	display:inline-block;
+	color:#999;
+	border-top:#999 1px solid;
+	margin-top:6px;
+	margin-bottom: 0;
+}
+
+#portfolio .bstrap-tabs {
+	margin-top:0;
+}
+
+
+ /*----------------------------
+	CONNECT
+-----------------------------*/
+.contact_me{
+	color: #e3e3e3;
+}
+
+.btn{
+	border-radius: 0;
+	color: #000;
+}
+
+.btn-default{
+	border: 2px solid #e3e3e3;
+}
+
+.btn-default:hover{
+	border: 2px solid #000;
+}
+
+.btn-lg{
+	border-radius: 0;
+}
+
+.banner-social-buttons{
+	text-shadow: none;
+	color: #000;
+}
+
+.visible-phone{
+	visibility: hidden;
+}
+
+/*----------------------------
+	FOOTER
+-----------------------------*/
+
+#footer{
+	text-align: center;
+	text-shadow: none;
+	background-color: black;
+	color: white;
+}
+
+#footer .header{
+	margin-top: 0;
+}
+
+
+#footer ul{
+	margin: 0 auto;
+}
+
+#footer li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 40px;
+	opacity: 0.9;
+}
+
+
+/*--------------------------------------------------------------
+	MEDIA QUERIES
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px){ 
+
+	ul.bstrap-tabs>li>a, 
+	ul.bstrap-tabs>li>a:hover, 
+	ul.bstrap-tabs>li>a:focus, 
+	ul.bstrap-tabs>li.active>a, 
+	ul.bstrap-tabs>li.active>a:hover, 
+	ul.bstrap-tabs>li.active>a:focus {
+		font-size: 8px;
+	}
+
+	.isotope .isotope-item{
+		margin-left: -11%;
+	}
+
+	#footer ul{
+		padding: 0;
+	}
+	#footer li{
+		margin: 10px;
+		
+	}
+
+	h1{
+		font-size: 4em;
+	}
+	.work_info h3{
+		font-size: 1.3em;
+	}
+
+	li.socialBtns{
+		display: block;
+		margin: 10px auto;
+	}
+	.socialBtns button{
+		width: 150px;
+	}
+}
+
+@media only screen and (min-width: 400px){ 
+	ul.bstrap-tabs>li>a, 
+	ul.bstrap-tabs>li>a:hover, 
+	ul.bstrap-tabs>li>a:focus, 
+	ul.bstrap-tabs>li.active>a, 
+	ul.bstrap-tabs>li.active>a:hover, 
+	ul.bstrap-tabs>li.active>a:focus {
+		font-size: 12px;
+	}
+
+	.isotope .isotope-item{
+		margin-left: 0%;
+	}
+
+	#footer li{
+		margin: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 550px){ 
+	li.socialBtns{
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 768px){ 
+	ul.bstrap-tabs>li>a, 
+	ul.bstrap-tabs>li>a:hover, 
+	ul.bstrap-tabs>li>a:focus, 
+	ul.bstrap-tabs>li.active>a, 
+	ul.bstrap-tabs>li.active>a:hover, 
+	ul.bstrap-tabs>li.active>a:focus {
+		font-size: 14px;
+	}
+
+	#footer li{
+		margin: 40px;
+	}
+	h1{
+		font-size: 4.6875em;
+	}
+	.work_info h3{
+		font-size: 1.5em;
+	}
+
+}
+
+
+ 
+ 

@@ -1,0 +1,66 @@
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+/*#slide1, #slide2{ width: 100%; }*/
+#slide1{
+	background:url('../images/laptop.jpg') 75% 0 no-repeat fixed;
+	color: #fff;
+	/*height: 100vh;*/
+	margin: 0;
+	padding-top: 100px;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+#slide3{
+	background: url('../images/freeway.jpg') 75% 0 no-repeat fixed;
+	color: #fff;
+	height: 350px;
+	padding-top: 100px;	
+	background-size: cover;
+	position: relative;
+}
+
+#slide4{
+	background-color: #fff;
+	color: #333333;
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+#slide5{
+	background-color: #3B3B3D;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 100px;
+	color: #fff;
+	position: relative;
+}
+
+@media only screen and (min-width: 320px){ 
+	#slide3{
+		padding-top: 0;	
+	}
+}
+
+@media only screen and (min-width: 400px){ 
+	#slide3{
+		padding-top: 100px;	
+	}
+}
+
